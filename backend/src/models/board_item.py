@@ -9,7 +9,8 @@ class BoardItem(Base):
     Board Item consist of items on the board
     id: id is the primary key
     title: title represents the title of the item in the board
-    type:
+    type: type of item
+    position: Position of this item in frontend
     """
     __tablename__ = 'board_items'
 
