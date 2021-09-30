@@ -1,1 +1,1 @@
-from .board_item import BoardItemSchema
+from .board_item import BoardItemSchema, BoardItemPositionsSchema

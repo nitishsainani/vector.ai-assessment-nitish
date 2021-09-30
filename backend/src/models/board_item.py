@@ -19,8 +19,8 @@ class BoardItem(Base):
     type = Column(String, nullable=False)
     position = Column(Integer, nullable=False, unique=True)
 
-    @validates('position')
-    def validate_position(self, key, position):
-        if position < 0:
-            raise ValueError("position should be >= 0")
-        return position
+    # @validates('position')
+    # def validate_position(self, key, position):
+    #     if position < 0:
+    #         raise ValueError("position should be >= 0")
+    #     return position
